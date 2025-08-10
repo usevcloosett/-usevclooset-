@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> VCLOSET</title>
+
+  <!-- Fonte personalizada -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    body {
+        font-family: 'Montserrat', Arial, sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #333;
+    }
+
+    .container {
+        max-width: 400px;
+        margin: 40px auto;
+        padding: 20px;
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .logo {
+        width: 300px;
+        border-radius: 12px;
+        margin-bottom: 5px; /* ficou mais próximo do título */
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 0 0 50px 0; /* praticamente sem espaço em cima */
+        font-weight: 700;
+        color: black;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        color: #000000;
+        font-weight: 500;
+    }
+
+    .highlight {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 12px 0;
+        padding: 14px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        transition: transform 0.2s ease, opacity 0.3s ease;
+        box-shadow: 0 4px 6px rgba(180, 118, 32, 0.3);
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+
+    .whatsapp {
+        background-color: #25d366;
+        box-shadow: 0 4px 8px #25d366a3;
+    }
+
+    .instagram {
+        background: linear-gradient(45deg, #fd1d1d, #e1306c, #f56040);
+        box-shadow: 0 4px 8px #e1306ca3;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img/Vs2.jpg" alt="Logo Sempre Bella" class="logo" />
+        <h1>✨ USE VCLOSET ✨</h1>
+        <p class="highlight">CADA PEÇA É PENSADA PARA VOCÊ BRILHAR! 💋🤍✨
+</p>
+
+        <a href="https://wa.me/5583991973425?text=Ol%C3%A1%2C%20usevclooset%20%E2%99%A1" target="_blank" class="btn whatsapp" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> FAÇA SEU PEDIDO PELO WHATSAPP 
+        </a>
+
+        <a href="https://instagram.com/usevcloseet" target="_blank" class="btn instagram" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i> SIGA NO INSTAGRAM
+        </a>
+    </div>
+</body>
+</html>
